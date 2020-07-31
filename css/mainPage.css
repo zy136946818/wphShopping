@@ -1,0 +1,419 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+#login{
+    color: gray;
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 2px;
+
+
+}
+#inp{
+    margin-left: 5%;
+    color: gray;
+    border-radius:100px;
+    width: 70%;
+    font-size: 18px;
+
+
+}
+#detail{
+    text-decoration: none;
+    color: gray;
+    margin-top: -1%;
+    float: right;
+
+}
+#menu{
+
+    height: 30px;
+    width: 100%;
+    /*border: solid 1px red;*/
+    display: flex;
+    margin-top: 2%;
+
+
+
+}
+#menu div{
+    width: 20%;
+    height: 30px;
+    /*border: solid 1px blue;*/
+
+}
+#pageimg{
+    width: 100%;
+    height: 150px;
+    padding: 0;
+    margin-top: 70px;
+
+
+}
+#pageimg1{
+    width: 100%;
+    height: 35px;
+    padding: 0;
+    margin: 0;
+
+}
+#pageimg2{
+    width: 100%;
+    height: 210px;
+    /*border: solid 1px red;*/
+    display: flex;
+    flex-wrap: wrap;
+    /*元素之间空白在容器中间位置分布*/
+    justify-content: space-around;
+    align-content: space-between;
+    background-color: #7532b9;
+
+
+}
+#pageimg2 div{
+    width: 18%;
+    height: 84px;
+    /*border: solid 1px blue;*/
+    margin-top: 2%;
+   margin-left: 2%;
+
+}
+#pageimg2 div img{
+    width: 90%;
+    height: 60px;
+    border-radius: 100%;
+
+
+}
+#pageimg2 div span{
+    color: white;
+    margin-left: 18%;
+
+
+}
+
+#pageimg3{
+
+    width: 100%;
+    height: 68px;
+    /*border: solid 1px red;*/
+    background: linear-gradient(#b331ff 30%, #ed70e6 70%);
+    display: flex;
+
+
+
+}
+#pageimg3 img{
+    width: 100%;
+    height: 68px;
+
+
+}
+/*#pageimg3 div{*/
+    /*width: 100%;*/
+    /*height: 26px;*/
+    /*margin-left: 50px;*/
+    /*border: solid 1px red;*/
+/*}*/
+#pageimg4{
+    width: 100%;
+    height: 145px;
+    /*border: solid 1px red;*/
+    display: flex;
+    justify-content: space-around;
+    /*align-content: space-between;*/
+
+
+}
+#pageimg4 div{
+    width: 33%;
+    height: 140px;
+
+}
+#pageimg4 div img{
+    width: 100%;
+    height: 140px;
+
+
+}
+#menu1{
+    width: 100%;
+    height: 194px;
+    /*border: solid 1px red;*/
+    border-radius:10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#menu1 #menu1_top{
+    width: 100%;
+    height: 40px;
+    background-image: url("../images/mst_8073c9b6c6aced227b3fe7c7b468ccde_750x386_90.jpg");
+    background-size: 100% 194px;
+    /*border: solid 1px red;*/
+
+}
+
+#menu1 #menu1_top span{
+    width: 40%;
+    padding-left: 4%;
+    font-size: 20px;
+    top: 1%;
+
+}
+
+#menu1 #menu1_top img{
+    width: 20%;
+    height: 15px;
+    margin-left: 27%;
+
+
+}
+#menu1 #menu1_body{
+    width: 100%;
+    height: 77%;
+    /*border: solid 1px blue;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#menu1 #menu1_body div{
+    width: 24%;
+    height: 100%;
+    /*border: solid 1px green;*/
+
+}
+#menu1 #menu1_body div img{
+    width: auto;
+    height: 55%;
+
+}
+
+#menu1 #menu1_body div .menu1_body_p1{
+    text-align: center;
+    font-size: 10px;
+    border-radius: 100px;
+    /*border: solid 1px #d4d4d4;*/
+    width: 50%;
+    margin-left:22%;
+
+
+
+
+}
+#menu1 #menu1_body div .menu1_body_p2{
+    text-align: center;
+    color: #ed70e6;
+
+
+}
+
+#menu2{
+    width: 100%;
+    height: 194px;
+    /*border: solid 1px red;*/
+    border-radius:10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../images/mst_9150bd7242a3c9fee9bbdcac339d1b71_750x446_90.jpg");
+    background-size: 100% 194px;
+
+}
+
+#menu2 #menu2_top{
+    width: 100%;
+    height: 40px;
+    /*border: solid 1px red;*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#menu2 #menu2_top img{
+    width: 20%;
+    height: 15px;
+    margin-left: 26%;
+    margin-top: 5%;
+
+}
+
+#menu2 #menu2_top span{
+    font-size: 5px;
+    margin-left: 27%;
+    margin-top: 5%;
+    width: 85px;
+
+}
+
+#menu2 #menu2_body{
+    width: 100%;
+    height: 77%;
+    /*border: solid 1px blue;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#menu2 #menu2_body div{
+    margin-top: 0;
+    width: 32%;
+    height: 100%;
+    /*border: solid 1px red;*/
+
+}
+
+#menu2 #menu2_body div img{
+    width: auto;
+    height: 55%;
+    margin-top: 5%;
+    margin-left: 10%;
+
+}
+
+#menu3{
+    width: 100%;
+    height: 171px;
+    /*border: solid 1px red;*/
+    border-radius:10px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+#menu3 #menu3_top{
+    width: 100%;
+    height: 50px;
+    background-image: url("../images/mst_72de5fa3f6b694e571ca57e4d2dc7968_750x342_90.jpg");
+    background-size: 100% 194px;
+    /*border: solid 1px red;*/
+
+}
+
+#menu3 #menu3_top span{
+    width: 40%;
+    padding-left: 4%;
+    font-size: 20px;
+    top: 1%;
+
+}
+
+#menu3 #menu3_top img{
+    width: 20%;
+    height: 15px;
+    margin-left: 27%;
+
+
+}
+#menu3 #menu3_body{
+    width: 100%;
+    height: 77%;
+    /*border: solid 1px blue;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#menu3 #menu3_body div{
+    width: 24%;
+    height: 100%;
+    /*border: solid 1px green;*/
+
+}
+#menu3 #menu3_body div img{
+    width: auto;
+    margin-left: 10%;
+    height: 53%;
+
+}
+
+#menu3 #menu3_body div .menu3_body_p1{
+    text-align: center;
+    font-size: 10px;
+    border-radius: 100px;
+    border: solid 1px #d4d4d4;
+    width: 50%;
+    margin-left:22%;
+    margin-top: -10%;
+
+}
+#menu3 #menu3_body div .menu3_body_p2{
+    text-align: center;
+    color: red;
+
+
+}
+
+#menu_span{
+
+    width: 100%;
+    height: 58px;
+    text-align: center;
+    /*border: solid 1px red;*/
+    font-size: 20px;
+
+    background-color: rgb(255,255,255);
+
+
+}
+#menu4{
+    width: 100%;
+    height: 2300px;
+    /*border: solid 1px red;*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#menu4 div{
+    width: 100%;
+    height: 200px;
+    /*border: solid 1px green;*/
+
+}
+#menu4 div img{
+    width: 100%;
+    height: 200px;
+
+}
+#menu4 div .menu4_img1{
+    border-radius: 5%;
+    width: 95%;
+    height: 169px;
+    margin-left: 10px;
+    margin-top: 1%;
+
+}
+#menu4_div{
+    width: 100%;
+    height: 270px;
+
+}
+#mycart{
+    text-decoration: none;
+    display: flex;
+
+}
+#mycart span{
+    font-size: 50px;
+    background-color: gray;
+    border-radius: 100%;
+
+}
+#return{
+    text-decoration: none;
+    display: flex;
+}
+#return span{
+    font-size: 50px;
+    background-color: gray;
+    border-radius: 100%;
+
+}
+

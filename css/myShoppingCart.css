@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+#top_close{
+    width: 90%;
+    height: 50px;
+    /*border: solid 1px red;*/
+    position: absolute;
+    top:1%;
+    left: 5%;
+
+
+}
+#top_div1{
+    margin-top: 60px;
+    border: none;
+    background-color: #aca7ff;
+}
+#top_address{
+    background-color: #67648d;
+    height: 40px;
+}
+#body{
+
+    width: 100%;
+    height: 300px;
+    border: none;
+    margin-top: 5%;
+
+
+}
+#body #body_img{
+    width: 18%;
+    height: 86px;
+    margin-left: 5%;
+
+}
+#body #body_img img{
+    width: 100%;
+    height: 100%;
+
+}
+#body #body_span{
+    width: 50%;
+    height: 15%;
+    border: none;
+    margin-top: -22%;
+    margin-left: 25%;
+
+}
+#body #body_money{
+    width: 20%;
+    height: 18px;
+    border: none;
+    margin-left: 80%;
+    margin-top: -12%;
+
+}
+#body #body_color{
+    width: 20%;
+    height: 15px;
+    border:none;
+    margin-left: 25%;
+    margin-top: 6%;
+
+}
+#body #body_pre{
+    width: 15%;
+    height: 18px;
+    border: none;
+    margin-left: 25%;
+    margin-top: 7px;
+    border-radius: 50px;
+    background-color: #d4d5ff;
+    text-align: center;
+    line-height: 15px;
+}
+#body #body_pre1{
+    width: 15%;
+    height: 18px;
+    border:none;
+    margin-left: 43%;
+    margin-top: -18px;
+    border-radius: 50px;
+    background-color: #d4d5ff;
+    text-align: center;
+    line-height: 15px;
+}
+#body #body_num{
+    width: 30%;
+    height: 20px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    /*元素之间空白在容器中间位置分布*/
+    /*justify-content: space-around;*/
+    margin-top: 10px;
+    margin-left: 25%;
+
+
+
+}
+#body #body_num div{
+    width: 28%;
+    height: 100%;
+    border: solid 1px darkgray;
+    text-align: center;
+
+
+
+}
+#body #body_del{
+    width: 10%;
+    height: 20px;
+    border: none;
+    margin-top: -5%;
+    margin-left: 92%;
+
+}
+#body #body_summoney{
+    margin-top: 1%;
+    width: 100%;
+    height: 30%;
+    /*border: solid 1px red;*/
+    line-height: 80px;
+    margin-left: 80%;
+
+}
+#body #body_bottom{
+    height: 10%;
+    /*border: solid 1px red;*/
+    margin-top: 13%;
+    margin-left: 5%;
+
+
+}
+#bottom_pre{
+    margin-top: 30px;
+    height: 30px;
+
+
+
+}
+#bottom_money{
+    margin-top: 20px;
+    height: 70px;
+
+
+
+}
+#bottom{
+    height: 100px;
+    background-color: white;
+
+
+}
+

@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#top{
+    width: 100%;
+    height: 95px;
+    /*border: solid 1px red;*/
+
+}
+#top #top_re{
+    width: 10%;
+    margin-top: 3%;
+    /*border: solid 1px green;*/
+
+}
+#top #top_sel{
+    width: 60%;
+    border: solid 1px #b8b8b8;
+    border-radius: 30px;
+    margin-top: -9%;
+    margin-left: 17%;
+
+}
+#top #top_sel input{
+    margin-top: -5px;
+    width: 60%;
+    height: 20px;
+    font-size: 20px;
+    border: none;
+    color: #b9b9b9;
+
+
+
+
+}
+#top #top_help{
+    width: 10%;
+    margin-left: 85%;
+    margin-top: -13%;
+    /*border: solid 1px green;*/
+
+}
+#top_right{
+    width: 17%;
+    /*border: solid 1px cornflowerblue;*/
+    display: flex;
+    margin-top: -11%;
+    margin-left: 82%;
+}
+#top_right div{
+    width: 40%;
+    /*border: solid 1px goldenrod;*/
+}
+#top #top_ul{
+    width: 100%;
+    list-style: none;
+    /*border: solid 1px grey;*/
+    float: left;
+
+
+
+}
+#top #top_ul li{
+    float: left;
+    list-style: none;
+    padding: 4%;
+
+
+
+}
+#body{
+    width: 100%;
+
+    /*border: solid 1px red;*/
+    background-color: #d8d8d8;
+}
+#body1{
+
+    width: 90%;
+    height: 400px;
+    margin: 5%;
+    /*border: solid 1px green;*/
+    border-radius: 10px;
+    background-color: white;
+
+
+
+}
+#body1 #body1_img{
+    width: 18%;
+    height: 86px;
+    margin-left: 5%;
+    margin-top: 2%;
+
+}
+#body1 #body1_img img{
+    width: 100%;
+    height: 100%;
+
+}
+#body1 #body1_span{
+    width: 50%;
+    height: 15%;
+    border: none;
+    margin-top: -27%;
+    margin-left: 25%;
+
+}
+#body1 #body1_money{
+    width: 20%;
+    height: 18px;
+    border: none;
+    margin-left: 80%;
+    margin-top: -12%;
+
+}
+#body1 #body1_color{
+    width: 20%;
+    height: 15px;
+    border:none;
+    margin-left: 25%;
+    margin-top: 6%;
+
+}
+#body1 #body1_pre{
+    width: 15%;
+    height: 18px;
+    border: none;
+    margin-left: 25%;
+    margin-top: 7px;
+    border-radius: 50px;
+    background-color: #d4d5ff;
+    text-align: center;
+    line-height: 15px;
+}
+#body1 #body1_pre1{
+    width: 15%;
+    height: 18px;
+    border:none;
+    margin-left: 43%;
+    margin-top: -18px;
+    border-radius: 50px;
+    background-color: #d4d5ff;
+    text-align: center;
+    line-height: 15px;
+}
+#body1 #body1_num{
+    width: 30%;
+    height: 20px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    /*元素之间空白在容器中间位置分布*/
+    /*justify-content: space-around;*/
+    margin-top: 10px;
+    margin-left: 25%;
+
+
+
+}
+#body1 #body1_num div{
+    width: 28%;
+    height: 100%;
+    /*border: solid 1px darkgray;*/
+    text-align: center;
+
+
+
+}
+#body1 #body1_del{
+    width: 10%;
+    height: 20px;
+    border: none;
+    margin-top: 8%;
+    margin-left: 80%;
+
+}
+#body1 #body1_summoney{
+    margin-top: 1%;
+    width: 100%;
+    height: 20%;
+    /*border: solid 1px red;*/
+    line-height: 80px;
+    margin-left: 30%;
+
+}
+#body1 #body1_bottom{
+    height: 20%;
+    /*border: solid 1px red;*/
+    display: flex;
+
+
+
+
+}
+#body1 #body1_bottom div{
+    margin: 5%;
+    width: 35%;
+    height: 40px;
+    border: solid 1px black;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+#body2{
+
+    width: 90%;
+    height: 400px;
+    margin: 5%;
+    /*border: solid 1px green;*/
+    border-radius: 10px;
+    background-color: white;
+
+
+
+}
+#body2 #body2_img{
+    width: 18%;
+    height: 86px;
+    margin-left: 5%;
+    margin-top: 2%;
+
+}
+#body2 #body2_img img{
+    width: 100%;
+    height: 100%;
+
+}
+#body2 #body2_span{
+    width: 50%;
+    height: 15%;
+    border: none;
+    margin-top: -27%;
+    margin-left: 25%;
+
+}
+#body2 #body2_money{
+    width: 20%;
+    height: 18px;
+    border: none;
+    margin-left: 80%;
+    margin-top: -12%;
+
+}
+#body2 #body2_color{
+    width: 20%;
+    height: 15px;
+    border:none;
+    margin-left: 25%;
+    margin-top: 6%;
+
+}
+#body2 #body2_pre{
+    width: 15%;
+    height: 18px;
+    border: none;
+    margin-left: 25%;
+    margin-top: 7px;
+    border-radius: 50px;
+    background-color: #d4d5ff;
+    text-align: center;
+    line-height: 15px;
+}
+#body2 #body2_pre1{
+    width: 15%;
+    height: 18px;
+    border:none;
+    margin-left: 43%;
+    margin-top: -18px;
+    border-radius: 50px;
+    background-color: #d4d5ff;
+    text-align: center;
+    line-height: 15px;
+}
+#body2 #body2_num{
+    width: 30%;
+    height: 20px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    /*元素之间空白在容器中间位置分布*/
+    /*justify-content: space-around;*/
+    margin-top: 10px;
+    margin-left: 25%;
+
+
+
+}
+#body2 #body2_num div{
+    width: 28%;
+    height: 100%;
+    /*border: solid 1px darkgray;*/
+    text-align: center;
+
+
+
+}
+#body2 #body2_del{
+    width: 10%;
+    height: 20px;
+    border: none;
+    margin-top: 8%;
+    margin-left: 80%;
+
+}
+#body2 #body2_summoney{
+    margin-top: 1%;
+    width: 100%;
+    height: 20%;
+    /*border: solid 1px red;*/
+    line-height: 80px;
+    margin-left: 30%;
+
+}
+#body2 #body2_bottom{
+    height: 20%;
+    /*border: solid 1px red;*/
+    display: flex;
+
+
+
+
+}
+#body2 #body2_bottom div{
+    margin: 5%;
+    width: 35%;
+    height: 40px;
+    border: solid 1px black;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+
