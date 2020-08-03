@@ -39,7 +39,8 @@
     width: 90%;
     height: 50px;
     /*border: solid 1px red;*/
-    position: fixed;
+    /*position: fixed;*/
+    position: absolute;
     top:1%;
     left: 5%;
 
